@@ -1,7 +1,7 @@
 import cv2
 
 #Load pre-trained face detector
-face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'Video_recognition_T-2/haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
 # Load pre-trained face recognition model
 # face_recognizer = cv2.faces.EigenFaceRecognizer_create()
