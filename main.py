@@ -8,7 +8,7 @@ face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_fronta
 # face_recognizer.read('trained_model.yml')
 
 # Initialize video capture
-cap = cv2.VideoCapture("Video_recognition_T-2/video.mp4")
+cap = cv2.VideoCapture("video.mp4")
 
 while True:
     # Capture frame-by-frame
